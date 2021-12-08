@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vhod.css">
+</head>
+<body>
+    <div class="main">
+        <div class="main__header">
+            <p class="main__header_text">dl.iitu.edu.kz</p>
+        </div>
+        <form class=" form form-login" onsubmit="loginFunc()">
+            <label for="" class=""></label>
+            <input type="text" placeholder=" Логин" class="form-login__username" name="login" id="username"><br>
+            <label for="" class=""></label>
+            <input type="password" placeholder=" Пароль" class="form-login__password" name="password" id="password"><br>
+            <label for="" class="form-login__checbox_text">Запомнить логин</label><br>
+            <input type="checkbox" class="form-login__checkbox"><br>
+            <button class="form-login__btn">Вход</button><br>
+            <p id="result">Welcome, create account</p>
+
+        </form>
+        <div class="forgot">
+            <a href="#" class="forgot__link">Забыли логин или пароль?</a>
+            <p class="forgot__cokies">В Вашем браузере должен быть разрешен прием cookies</p>
+            <p class="forgot__other">Войти с использованием учетной записи:</p>
+            <button class="forgot__btn btn"> <img src="Microsoft_Office_2013-Logo.wine.png" alt="" class="forgot__btn_img"> <p class="forgot__btn_text" >OpenID Connect</p></button>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__div">
+            <p class="footer__div__p1">Вы не вошли в систему</p>
+            <a href="#" class="footer__div_start">В начало</a> <br>
+            <a href="#" class="footer__div_data">Сводка хранения данных</a>
+        </div>
+    </footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+  <script src="vhod.js"></script>  
+
+</body>
+</html>
